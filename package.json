@@ -7,9 +7,10 @@
   },
   "dependencies": {
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "simple-git": "^1.110.0"
   },
   "devDependencies": {
-    "electron": "^4.0.0"
+    "electron": "^4.1.1"
   }
 }

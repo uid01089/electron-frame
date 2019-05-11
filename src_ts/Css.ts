@@ -3,6 +3,17 @@ import { Component } from './lib/Component'
 const CSS = Component.html` 
         <style>
             
+            h1{
+                text-align: left;
+                text-decoration: none;
+                text-indent: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                font-weight: normal;
+                text-align: center;
+            }
+            
+            
             .input{
                 background-color: #ccc; 
                 border: none;
