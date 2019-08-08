@@ -8,9 +8,10 @@
   "dependencies": {
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "simple-git": "^1.110.0"
+    "simple-git": "^1.113.0"
   },
   "devDependencies": {
-    "electron": "^4.1.1"
+    "electron": "^6.0.0",
+    "typescript-tslint-plugin": "^0.3.1"
   }
 }

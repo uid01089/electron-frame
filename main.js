@@ -10,7 +10,9 @@ const scheme = 'app';
 { /* Protocol */
   // Registering must be done before app::ready fires
   // (Optional) Technically not a standard scheme but works as needed
-  protocol.registerStandardSchemes([scheme], { secure: true });
+  protocol.registerSchemesAsPrivileged([
+    { scheme: scheme, privileges: { standard: true, secure: true } }
+  ])
 
   // Create protocol
   require('./create-protocol')(scheme, base);
