@@ -1,6 +1,6 @@
 
 
-import { Component } from '../lib/Component';
+import { Component } from '../js_web_comp_lib/Component';
 import { CSS } from '../Css';
 
 
