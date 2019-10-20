@@ -1,7 +1,3 @@
-
-
-
-import { AbstractReducer } from './js_web_comp_lib/AbstractReducer';
 import { AbstractReduxStore } from './js_web_comp_lib/AbstractReduxStore';
 
 
@@ -10,13 +6,8 @@ interface State {
 
 }
 
-
-
-
-
 const initiateState: State = {
     action: null,
-
 
 }
 
